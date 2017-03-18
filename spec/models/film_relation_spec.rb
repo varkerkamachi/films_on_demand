@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe FilmRelation do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to(:film) }
+  it { should have_many(:film_relations) }
+
 end

@@ -38,7 +38,9 @@ group :test, :development do
   gem 'faker'
   gem 'ffaker'
   gem 'database_cleaner'
+  gem 'factory_girl'
   gem 'factory_girl_rails'
+  gem 'shoulda-matchers', require: false
 end
 
 gem 'unicorn'

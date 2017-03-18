@@ -1,0 +1,1 @@
+json.(item, :id, :title, :description, :url_slug, :year)
