@@ -1,1 +1,1 @@
-json.partial! 'item', item: film
+json.partial! 'item', item: @film

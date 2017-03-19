@@ -1,1 +1,1 @@
-json.partial! 'item', collection: films, as: :item
+json.partial! 'item', collection: @films, as: :item

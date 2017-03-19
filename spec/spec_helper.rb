@@ -30,7 +30,7 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
 
   config.mock_with :rspec do |mocks|
-    mocks.syntax = :should
+    mocks.syntax = :expect
   end
 
   # Run specs in random order to surface order dependencies. If you find an

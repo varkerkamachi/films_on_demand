@@ -170,3 +170,69 @@ film_relations = FilmRelation.create(
     }
   ])
 
+film_ratings = FilmRating.create(
+  [
+    {
+      "film_id"=> 1,
+      "user_id"=> 2,
+      "title"=>"Brilliant!",
+      "description"=>"Well done",
+      "stars"=>9
+    },
+    {
+      "film_id"=> 1,
+      "user_id"=> 1,
+      "title"=>"Not bad for the money",
+      "description"=>"Was watchable",
+      "stars"=>6
+    },
+    {
+      "film_id"=> 4,
+      "user_id"=> 3,
+      "title"=>"Shameful!",
+      "description"=>"Worst movie I've ever seen  ",
+      "stars"=>1
+    },
+    {
+      "film_id"=> 4,
+      "user_id"=> 2,
+      "title"=>"Awful!",
+      "description"=>"What was this?",
+      "stars"=>1
+    },
+    {
+      "film_id"=> 4,
+      "user_id"=> 1,
+      "title"=>"Yeck",
+      "description"=>"This was the dumb version of that other dumb movie",
+      "stars"=>2
+    },
+    {
+      "film_id"=> 2,
+      "user_id"=> 2,
+      "title"=>"Pretty cool!",
+      "description"=>"Showed me insights about the ...",
+      "stars"=>7
+    },
+    {
+      "film_id"=> 2,
+      "user_id"=> 1,
+      "title"=>"Pretty cool!",
+      "description"=>"Showed me insights about the ...",
+      "stars"=>7
+    },
+    {
+      "film_id"=> 2,
+      "user_id"=> 3,
+      "title"=>"Just about what I expected",
+      "description"=>"Definitely no surprises here, a solidly made ...",
+      "stars"=>8
+    },
+    {
+      "film_id"=> 3,
+      "user_id"=> 2,
+      "title"=>"Unreal!",
+      "description"=>"The way those elephants moved, so graceful",
+      "stars"=>8
+    }
+  ])

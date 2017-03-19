@@ -3,7 +3,13 @@ Rails.application.routes.draw do
 
   # get 'films/show'
 
-  resources :films, controller: :films, only: [:index, :show]
+  resources :films, only: [:index, :show] do
+    resources :film_ratings, path: 'ratings'
+  end
+
+  resources :users
+
+  resources :film_ratings
 
   # You can have the root of your site routed with "root"
 
