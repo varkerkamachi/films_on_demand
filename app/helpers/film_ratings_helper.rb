@@ -1,0 +1,2 @@
+module FilmRatingsHelper
+end

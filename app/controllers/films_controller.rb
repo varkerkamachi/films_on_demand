@@ -1,14 +1,11 @@
 class FilmsController < ApplicationController
-  # respond_to :json
-
+  
   def index
-    @films = Film.all.select(:id, :title, :description, :url_slug, :year)
-    # render json: @films
+    @films = Film.all
   end
 
   def show
     @film = Film.find params[:id] rescue nil
-    render json: @film
   end
 
   private

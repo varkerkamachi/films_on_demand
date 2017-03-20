@@ -1,0 +1,1 @@
+json.partial! 'item', collection: @ratings, as: :item

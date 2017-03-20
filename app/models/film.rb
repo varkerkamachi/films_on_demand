@@ -2,6 +2,8 @@ class Film < ActiveRecord::Base
   has_many :film_ratings
   has_many :film_relations
 
+  # want this method to handle returning all related films record as AR instance
+  # but also to have flexibility of returning only a single attribute for them, as an array - ex: ids => [22,3,54]
   def related_films attrs=nil
     related_films = []
     unless self.film_relations.blank?
