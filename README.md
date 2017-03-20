@@ -8,7 +8,9 @@
   - rake db:create
   - rake db:migrate
   - rake db:seed
+  - rspec spec/
   - rails s
+  - browse to localhost:3000/films.json
 
 ## API Documentation
 **Communication format:** Server works with JSON so every request to API should contain HTTP headers:
